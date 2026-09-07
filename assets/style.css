@@ -92,7 +92,7 @@ header{
   background:
     radial-gradient(ellipse 700px 460px at 50% 46%, rgba(6,6,7,0.5) 0%, rgba(6,6,7,0.2) 55%, rgba(6,6,7,0) 100%),
     linear-gradient(180deg, rgba(6,6,7,0.55) 0%, rgba(6,6,7,0.05) 22%, rgba(6,6,7,0.15) 65%, rgba(6,6,7,0.6) 100%),
-    url('img/hero-bee.png') center 42%/cover no-repeat,
+    url('img/hero-bg.jpg') center 42%/cover no-repeat,
     var(--black);
   overflow:hidden;
 }

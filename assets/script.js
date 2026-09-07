@@ -2,6 +2,13 @@
 const burger = document.getElementById('burger');
 const panel = document.getElementById('mobilePanel');
 
+// Register the service worker so the site can be installed as an app
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch(() => {});
+  });
+}
+
 if (burger && panel) {
   burger.addEventListener('click', () => {
     const isOpen = panel.classList.toggle('open');
